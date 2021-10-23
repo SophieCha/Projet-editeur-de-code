@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Éditeur de code</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page" id="page">
+      <!--Pour créer la zone d'écriture de texte,création d'une zone de texte, cette balise
+            nous permet en plus de récupérer son contenu pour l'afficher dans le livecoding et 
+            utiliser la valeur de la longueur de son contenu pour calculer le nombre de caractères
+            et l'afficher dans le compteur -->
+      <h1>Éditeur de code HTML/CSS</h1>
+      <button class="button" id="bold"><bold>B</bold></button>
+      <button class="button" id="italic"><em>I</em></button>
+
+      <textarea
+        class="editeur"
+        id="editeur"
+        name="editeur"
+        maxlength="200"
+        placeholder="Tape ton code..."
+      ></textarea>
+
+      <div class="contenantProgress">
+        <div class="progress" id="progress"></div>
+      </div>
+      <div class="compteur" id="compteur"></div>
+
+      <!--Pour créer la zone de livecoding on utilise un paragraphe, on va pouvoir récupérer le contenu 
+        de la zone de texte et le paragraphe va pouvoir interpréter le contenu et l'afficher-->
+      <img src="Ellipsis-1s-61px.gif" width="50" />
+      <h1>Live Coding</h1>
+
+      <p class="livecoding" id="livecoding"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

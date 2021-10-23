@@ -1,0 +1,66 @@
+body {
+  background-color: #5dacbd;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+button {
+  width: 40px;
+  border-radius: 4px;
+  background-color: rgb(27, 27, 90);
+  color: rgb(224, 235, 235);
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: crimson;
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+  border-radius: 6px;
+  border-style: none;
+}
+
+img {
+  margin: 0 auto;
+  display: block;
+  visibility: hidden;
+}
+
+p {
+  color: rgb(15, 15, 36);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.page {
+  width: 60%;
+  background-color: rgba(224, 235, 235, 0.5);
+  margin: 0 auto;
+  padding: 10px 25px;
+  border-radius: 6px;
+}
+
+.compteur {
+  margin: 5px 0 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  width: 35px;
+  height: 25px;
+  text-align: center;
+}
+
+.contenantProgress {
+  margin-top: 5px;
+  width: 100%;
+  height: 15px;
+}
+
+.progress {
+  width: 0%;
+  height: 15px;
+  background-color: rgb(218, 167, 134);
+  border-radius: 5px 25px 25px 4px;
+}
